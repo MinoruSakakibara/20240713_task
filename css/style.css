@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.result > p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+@media screen and (max-width: 480px) {
+	#resultCanvas {
+        width: 90%;
+    }
+
+    .result {
+        width: 90%;
+    }
+    
+}
